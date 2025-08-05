@@ -1,0 +1,211 @@
+[
+  {
+    "id": "bg-origination",
+    "type": "background",
+    "position": { "x": 0, "y": 0 },
+    "data": { "title": "Origination", "color": "bg-sky-50/50 border-sky-200" },
+    "draggable": false,
+    "selectable": false,
+    "zIndex": -1,
+    "style": { "width": "350px", "height": "820px" }
+  },
+  {
+    "id": "bg-validation",
+    "type": "background",
+    "position": { "x": 350, "y": 0 },
+    "data": {
+      "title": "Payment Validation and Routing",
+      "color": "bg-green-50/50 border-green-200"
+    },
+    "draggable": false,
+    "selectable": false,
+    "zIndex": -1,
+    "style": { "width": "350px", "height": "820px" }
+  },
+  {
+    "id": "bg-middleware",
+    "type": "background",
+    "position": { "x": 700, "y": 0 },
+    "data": { "title": "Middleware", "color": "bg-amber-50/50 border-amber-200" },
+    "draggable": false,
+    "selectable": false,
+    "zIndex": -1,
+    "style": { "width": "450px", "height": "820px" }
+  },
+  {
+    "id": "bg-processing",
+    "type": "background",
+    "position": { "x": 1150, "y": 0 },
+    "data": {
+      "title": "Payment Processing, Sanctions & Investigation",
+      "color": "bg-rose-50/50 border-rose-200"
+    },
+    "draggable": false,
+    "selectable": false,
+    "zIndex": -1,
+    "style": { "width": "500px", "height": "820px" }
+  },
+  {
+    "id": "swift-gateway",
+    "type": "custom",
+    "position": { "x": 50, "y": 100 },
+    "data": { "title": "Swift Gateway", "subtext": "AIT 11554" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "loan-iq",
+    "type": "custom",
+    "position": { "x": 50, "y": 220 },
+    "data": { "title": "Loan IQ", "subtext": "AIT 48581" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "cashpro-mobile",
+    "type": "custom",
+    "position": { "x": 50, "y": 340 },
+    "data": { "title": "CashPro Mobile", "subtext": "AIT 41107" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "cpo-api-gateway",
+    "type": "custom",
+    "position": { "x": 50, "y": 460 },
+    "data": { "title": "CPO API Gateway", "subtext": "AIT 11697" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "b2bi",
+    "type": "custom",
+    "position": { "x": 50, "y": 580 },
+    "data": { "title": "B2Bi", "subtext": "AIT 54071" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "ecs-origination",
+    "type": "custom",
+    "position": { "x": 50, "y": 700 },
+    "data": { "title": "ECS", "subtext": "AIT 634" },
+    "parentId": "bg-origination",
+    "extent": "parent"
+  },
+  {
+    "id": "swift-alliance",
+    "type": "custom",
+    "position": { "x": 425, "y": 100 },
+    "data": { "title": "Swift Alliance", "subtext": "AIT 512" },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "gpo",
+    "type": "custom",
+    "position": { "x": 425, "y": 220 },
+    "data": { "title": "GPO", "subtext": "AIT 70199" },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "cashpro-payments",
+    "type": "custom",
+    "position": { "x": 425, "y": 340 },
+    "data": {
+      "title": "CashPro Payments (International & Domestic)",
+      "subtext": "AIT 28960"
+    },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "frp-us",
+    "type": "custom",
+    "position": { "x": 425, "y": 480 },
+    "data": { "title": "FRP US", "subtext": "AIT 15227" },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "psh",
+    "type": "custom",
+    "position": { "x": 425, "y": 590 },
+    "data": { "title": "PSH", "subtext": "AIT 31427" },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "ecs-validation",
+    "type": "custom",
+    "position": { "x": 425, "y": 700 },
+    "data": { "title": "ECS", "subtext": "AIT 834" },
+    "parentId": "bg-validation",
+    "extent": "parent"
+  },
+  {
+    "id": "rpi",
+    "type": "custom",
+    "position": { "x": 750, "y": 220 },
+    "data": { "title": "RPI", "subtext": "AIT 60745" },
+    "parentId": "bg-middleware",
+    "extent": "parent"
+  },
+  {
+    "id": "mrp",
+    "type": "custom",
+    "position": { "x": 950, "y": 400 },
+    "data": { "title": "MRP", "subtext": "AIT 4679" },
+    "parentId": "bg-middleware",
+    "extent": "parent"
+  },
+  {
+    "id": "gbs-aries",
+    "type": "custom",
+    "position": { "x": 1200, "y": 160 },
+    "data": { "title": "GBS Aries", "subtext": "AIT 515" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  },
+  {
+    "id": "gtms-limits",
+    "type": "custom",
+    "position": { "x": 1420, "y": 160 },
+    "data": { "title": "GTMS (Limits)", "subtext": "AIT 62686" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  },
+  {
+    "id": "ets-sanctions",
+    "type": "custom",
+    "position": { "x": 1310, "y": 300 },
+    "data": { "title": "ETS (Sanctions)", "subtext": "AIT 46951" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  },
+  {
+    "id": "gfd-fraud",
+    "type": "custom",
+    "position": { "x": 1310, "y": 420 },
+    "data": { "title": "GFD (Fraud)", "subtext": "AIT 73929" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  },
+  {
+    "id": "wtx-rgw",
+    "type": "custom",
+    "position": { "x": 1200, "y": 580 },
+    "data": { "title": "WTX / RGW", "subtext": "AIT 1901 / 882" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  },
+  {
+    "id": "rtfp",
+    "type": "custom",
+    "position": { "x": 1200, "y": 700 },
+    "data": { "title": "RTFP", "subtext": "AIT 74014" },
+    "parentId": "bg-processing",
+    "extent": "parent"
+  }
+]
