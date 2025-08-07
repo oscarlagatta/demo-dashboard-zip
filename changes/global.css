@@ -1,0 +1,17 @@
+/* Edge hover effect styles */
+.react-flow__edge-parallel:hover path {
+  stroke: #10b981;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.react-flow__edge-parallel:hover .react-flow__marker-end path,
+.react-flow__edge-parallel:hover .react-flow__marker-start path {
+  fill: #10b981;
+  stroke: #10b981;
+  transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out;
+}
+
+/* Active node styling */
+.node--active {
+  box-shadow: 0 0 12px #2563eb88 !important;
+}
